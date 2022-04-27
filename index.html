@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo</title>
+    <!--Đây là external: Tạo liên kết tới file css-->
+    <link rel="stylesheet" href="./main.css" />
+
+    <!--Đây là internal: Thêm các thuộc tính trong chính file html-->
+    <style>
+      h1 {
+        color: red;
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <!--div: tạo khối bao quanh các design-->
+    <div>
+      <h1 style="color: aqua; font-size: 30px" title="Đây là tiêu đề">
+        Tiêu đề
+      </h1>
+      <h1 id="first">Selector 1 <br /> Dòng thứ 2</h1>
+      <h1 class="second">Selector 2</h1>
+      <h1 class="second">Selector 3</h1>
+
+      <!--button: Thêm button vào web-->
+      <button>Đăng ký</button>
+
+      <!--input: thêm vào các control-->
+      <input type="text" />
+      <input name="Giới tính" type="radio" />
+      <input name="Giới tính" type="radio" />
+      <input name="Giới tính" type="radio" />
+
+      <!--p: Viết các đoạn văn tương ứng với h1-->
+      <p>Các nội dung của tiêu đề ở trong này</p>
+      <!--img: Chèn ảnh vào đường link-->
+      <img
+        src="data:image/jpeg;base64,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"
+        alt="Hiển thị title khi ảnh bị lỗi"
+      />
+      <!--a: Chèn đường liên kết-->
+      <a style="color: red" href="https://sinhvien.tlu.edu.vn/#/login">Tới trang sinh viên TLU</a>
+
+      <ul>
+        <p><i>Viết ở đây <br> Viết tiếp ở bên dưới <b>Viết thêm dòng thứ 3</b> <hr> <br>Viết dòng thứ 4</i></p>
+      </ul>
+
+      <div>
+        <img width="50%" title="Ảnh đẹp" src="data:image/jpeg;base64,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" alt="Hình ảnh này không thể hiển thị">
+        
+      </div>
+      <!--ol: Tạo list-->
+      <ol>
+        List
+        <li>HTML</li>
+        <li>Cài đặt môi trường</li>
+      </ol>
+      <!--Table: Tạo bảng-->
+      <table>
+        <!--head: Tạo các colum-->
+        <head>
+          <th>STT</th>
+          <th>Tên</th>
+          <th>Địa chỉ</th>
+        </head>
+
+        <tbody>
+          <!--tr: Tạo các row-->
+          <tr>
+            <td>1</td>
+            <td>Thắng</td>
+            <td>Thái Bình</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Hui</td>
+            <td>Hải Dương</td>
+          </tr>
+        </tbody>
+      </table>
+      <!--script: Tạo liên kết tới file js-->
+      <script src="./main.js"></script>
+      <!--Các design cho các control-->
+    </div>
+    <style>
+      .box {
+        /*Tạo các box bên trong*/
+        width: 60px;
+        height: 60px;
+        
+        color: blue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /*Cho các box sang bên trái*/
+        float: left;
+      }
+      .box1 {
+        background-color: aqua;
+        padding: 10px;
+        border: 10px solid #333;
+      }
+      .box2 {
+        background-color: brown;
+        margin-left: 20px;
+      }
+      .box2:active {
+        background-color: rgb(13, 179, 77);
+      }
+      .box1:hover {
+          background-color: blue;
+      }
+    </style>
+    <div class="box box1">Box 1</div>
+    <div class="box box2">Box 2</div>
+
+    <div>
+      <ol type="A">
+        <li>Dòng thứ nhất</li>
+        <li>Dòng thứ hai</li>
+        
+      </ol>
+    </div>
+    <form action=""></form>
+  </body>
+</html>
